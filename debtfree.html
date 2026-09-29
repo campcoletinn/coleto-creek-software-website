@@ -128,12 +128,23 @@
       background: #edf2ef;
     }
 
-    .screenshot-box {
-      margin-top: 30px;
-      background: white;
-      border: 2px dashed #a9b8b0;
+    .screenshot-figure {
+      max-width: 1026px;
+      margin: 30px auto 0;
+    }
+
+    .screenshot-figure img {
+      display: block;
+      width: 100%;
+      max-width: 1026px;
+      height: auto;
+      border: 1px solid #dfe4e1;
       border-radius: 10px;
-      padding: 55px 25px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+
+    .screenshot-figure figcaption {
+      margin-top: 16px;
       text-align: center;
       color: #53606a;
     }
@@ -328,11 +339,32 @@
         questions, and readable summaries so you can focus on understanding
         your information without building formulas or managing a complicated spreadsheet.
       </p>
-      <div class="screenshot-box">
-        <strong>DebtFree screenshot placeholder</strong>
-        <p>An actual screenshot using fictional demonstration data will be added later.</p>
-      </div>
+      <figure class="screenshot-figure">
+        <img src="images/debtfree-options-demo.png" width="1026" height="733"
+             alt="DebtFree payoff-options comparison showing smaller balances first and higher interest first, with neither approach selected."
+             loading="lazy">
+        <figcaption>
+          Compare two common payoff approaches using the same monthly debt budget.
+          This screenshot uses fictional demonstration data; neither approach is selected.
+        </figcaption>
+      </figure>
     </div>
+  </section>
+
+  <section class="section">
+    <h2>Start with a clear picture of what you owe</h2>
+    <p class="intro">
+      DebtFree brings balances, interest rates, minimum payments, and debt
+      details together so you can review what you owe before building a plan.
+    </p>
+    <figure class="screenshot-figure">
+      <img src="images/debtfree-debts-demo.png" width="1026" height="733"
+           alt="DebtFree My Debts screen showing total debt, minimum payments, and individual debt balances and interest rates."
+           loading="lazy">
+      <figcaption>
+        The My Debts screen with fictional demonstration data and generic creditor descriptions.
+      </figcaption>
+    </figure>
   </section>
 
   <section class="section">
