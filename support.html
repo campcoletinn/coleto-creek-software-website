@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Coleto Creek Software Solutions with questions about our software and products in development.">
+  <title>Contact &amp; Support | Coleto Creek Software Solutions</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2933;
+      background: #f7f8f6;
+      line-height: 1.6;
+    }
+
+    a { color: #173f35; }
+
+    a:focus-visible {
+      outline: 3px solid currentColor;
+      outline-offset: 4px;
+    }
+
+    header {
+      background: #173f35;
+      color: white;
+    }
+
+    .nav {
+      max-width: 1180px;
+      margin: auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .brand {
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.15rem;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover, .brand:hover, footer a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: #173f35;
+      color: white;
+      padding: 75px 24px 85px;
+    }
+
+    .hero-inner {
+      max-width: 1050px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 6vw, 4.5rem);
+      line-height: 1.05;
+      margin: 18px 0 22px;
+    }
+
+    .hero p {
+      max-width: 780px;
+      font-size: 1.25rem;
+      color: #e4eee9;
+    }
+
+    .section {
+      max-width: 1180px;
+      margin: auto;
+      padding: 65px 24px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 1.25;
+      margin-top: 0;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #dfe4e1;
+      border-radius: 10px;
+      padding: 26px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+
+    .email-link {
+      font-size: 1.12rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .notice {
+      background: white;
+      border-left: 5px solid #173f35;
+      padding: 20px 24px;
+      margin-top: 28px;
+    }
+
+    .guidance { background: #edf2ef; }
+
+    .section p { max-width: 820px; }
+
+    ul { padding-left: 22px; }
+
+    li { margin-bottom: 10px; }
+
+    footer {
+      background: #102d26;
+      color: #dce8e3;
+      text-align: center;
+      padding: 30px 24px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 800px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero { padding: 55px 24px 65px; }
+
+      .section { padding: 45px 24px; }
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html">Coleto Creek Software Solutions</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#products">Products</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Contact &amp; Support</h1>
+      <p>
+        Have a question about our software or a product in development?
+        Customers and visitors can contact Coleto Creek Software Solutions
+        using the email address below.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="email-heading">
+    <div class="card">
+      <h2 id="email-heading">Email us</h2>
+      <p>Our public support and contact address is:</p>
+      <p>
+        <a class="email-link" href="mailto:support@coletocreeksoftwaresolutions.com">support@coletocreeksoftwaresolutions.com</a>
+      </p>
+      <p>
+        Use this address for product questions or to describe a problem.
+        You can also copy the address into your email app.
+      </p>
+    </div>
+
+    <aside class="notice" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">Do not email sensitive information</h2>
+      <p>Do not send any of the following:</p>
+      <ul>
+        <li>Passwords</li>
+        <li>Social Security numbers</li>
+        <li>Bank account numbers</li>
+        <li>Credit or debit card numbers</li>
+        <li>Full tax identification numbers</li>
+        <li>Financial account login information</li>
+      </ul>
+      <p>
+        Before sending a screenshot, check it for sensitive or personal
+        information. Remove or cover those details before attaching it.
+        Check your message and any other attachments as well.
+      </p>
+    </aside>
+  </section>
+
+  <section class="guidance" aria-labelledby="contacting-heading">
+    <div class="section">
+      <h2 id="contacting-heading">When contacting us</h2>
+      <p>
+        A few clear, non-sensitive details help us understand your question
+        and diagnose a problem. If you are reporting an issue, include:
+      </p>
+      <ul>
+        <li>The product name.</li>
+        <li>Your Windows version, if relevant and you know it.</li>
+        <li>What you were trying to do.</li>
+        <li>What happened instead.</li>
+        <li>The exact error message, if one appeared, with any sensitive details removed.</li>
+        <li>A screenshot, if useful, after checking it for sensitive or personal information.</li>
+      </ul>
+      <p>
+        You do not need technical language. Describe the steps you took in
+        your own words and explain where you got stuck. If we need more
+        details to understand the issue, we may ask follow-up questions.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="product-heading">
+    <h2 id="product-heading">Products in development</h2>
+    <p>
+      Our current public product pages describe software that is still in
+      development. DebtFree and Farm Schedule F Tracker are not yet available
+      for purchase. Visit their pages for current product information:
+    </p>
+    <ul>
+      <li><a href="debtfree.html">DebtFree</a></li>
+      <li><a href="farm-schedule-f.html">Farm Schedule F Tracker</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Coleto Creek Software Solutions. All rights reserved.</p>
+  <p>
+    <a href="index.html">Home</a>
+    <a href="index.html#products">Products</a>
+    <a href="support.html" aria-current="page">Support</a>
+  </p>
+</footer>
+</body>
+</html>
